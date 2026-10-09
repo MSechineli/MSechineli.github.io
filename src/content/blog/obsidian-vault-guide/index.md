@@ -3,7 +3,7 @@ title: "Connecting Your Obsidian Vault to Minrock"
 description: "A complete technical walkthrough on integrating Vault CMS and Obsidian as a local, frictionless CMS for Minrock."
 pubDate: 2026-09-16
 tags: ["obsidian", "vault", "workflow", "astro"]
-draft: false
+draft: true
 image: "/images/vaultcms-architecture.svg"
 ---
 

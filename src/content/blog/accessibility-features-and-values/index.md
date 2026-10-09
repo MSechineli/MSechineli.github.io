@@ -3,7 +3,7 @@ title: "Built for Everyone: Features, Accessibility, and Inclusive Values in Min
 description: "A complete feature matrix of Minrock, our philosophy of radical accessibility—from neurodiverse-friendly audio to multi-language translation—and our commitment to digital inclusion."
 pubDate: 2026-09-16
 tags: ["accessibility", "a11y", "features", "inclusion", "philosophy", "design"]
-draft: false
+draft: true
 ---
 
 Software is an expression of human values. When building a personal blog or digital publishing engine, every design choice—every contrast ratio, navigation shortcut, and assistive feature—reflects who we welcome into our space.

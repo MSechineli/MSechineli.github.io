@@ -9,6 +9,7 @@ repoUrl: "https://github.com/rnt-rez/minrock"
 demoUrl: "https://minrock.vercel.app"
 emoji: "🪨"
 featured: true
+draft: true
 ---
 
 ## Overview

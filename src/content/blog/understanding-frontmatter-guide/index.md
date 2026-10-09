@@ -3,7 +3,7 @@ title: "Understanding Frontmatter in Minrock: The Complete Metadata Reference"
 description: "A deep-dive explanation of all YAML frontmatter options available when creating notes in Obsidian for Minrock."
 pubDate: 2026-09-16
 tags: ["frontmatter", "obsidian", "astro", "guide"]
-draft: false
+draft: true
 ---
 
 Every article published in **Minrock** starts with a block of structured metadata at the very top of the file called **YAML Frontmatter**. 

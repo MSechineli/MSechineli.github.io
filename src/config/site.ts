@@ -69,15 +69,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  title: 'Minrock',
-  tagline: 'Raw ideas from your personal vault, finely polished into an ultra-fast static blog.',
-  description: 'Minimalist, typography-first Astro 7 theme crafted for technical writers and Obsidian vaults. Pure SSG, zero bloat.',
-  author: 'Renato Rezende',
+  title: 'MSechineli Dev-Blog', // TODO: nome do blog (aparece no header e na aba)
+  tagline: 'TODO: uma frase curta sobre o blog (aparece abaixo do título na home)',
+  description: 'TODO: descrição para SEO e redes sociais (1-2 frases)',
+  author: 'Matheus Sechineli',
   // Substitua pelo seu domínio de produção (usado para SEO Canônico, OpenGraph e RSS)
   // Replace with your production domain (used for Canonical SEO, OpenGraph and RSS feeds)
   // Can be overridden via environment variable (e.g. Vercel: SITE_URL=https://yourdomain.com)
-  siteUrl: (typeof process !== 'undefined' && process.env?.SITE_URL) || (import.meta as any).env?.SITE_URL || 'https://minrock.vercel.app',
-  defaultTheme: 'cream',
+  siteUrl: (typeof process !== 'undefined' && process.env?.SITE_URL) || (import.meta as any).env?.SITE_URL || 'https://msechineli.github.io',
+  defaultTheme: 'midnight',
   // Granular Feature Flags — "Complete by default, minimalist on demand"
   // Toggle any feature to false to completely omit markup & scripts in static build
   features: {
@@ -90,12 +90,12 @@ export const siteConfig: SiteConfig = {
     themeSwitcher: true,
     backToTop: true,
     imageZoom: true,
-    comments: true
+    comments: false // ScatterLeaf precisa de um broker próprio; veja o post de exemplo sobre comentários
   },
   socialLinks: {
-    github: 'https://github.com/rnt-rez/minrock',
-    linkedin: 'https://example.com/',
-    email: 'https://example.com/'
+    github: 'https://github.com/MSechineli',
+    // linkedin: 'https://www.linkedin.com/in/SEU-USUARIO/',
+    // email: 'voce@exemplo.com'
   },
   navLinks: [
     { title: 'Home', href: '/' },
@@ -105,13 +105,13 @@ export const siteConfig: SiteConfig = {
     { title: 'About', href: '/about' }
   ],
   comments: {
-    enabled: true,
+    enabled: false,
     provider: 'scatterleaf',
-    repo: 'rnt-rez/minrock',
+    repo: 'MSechineli/MSechineli.github.io',
     category: 'General',
     theme: 'auto',
     lang: 'auto',
-    clientId: 'Iv23liZHApvnx6e6wtMJ',
+    clientId: '', // ID do seu GitHub App (o anterior era do autor do template)
     // 🍃 DEFAULT: Showcase Mode (broker: '')
     // Out of the box, broker defaults to '' (empty). ScatterLeaf runs in an interactive,
     // safe sandbox with simulated mock comments in browser memory — zero external setup,

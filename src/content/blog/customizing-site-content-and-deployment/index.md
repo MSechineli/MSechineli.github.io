@@ -3,7 +3,7 @@ title: "Project Map & Content Customization: Where to Edit Every Section in Minr
 description: "A developer roadmap showing the exact files to edit for your hero banner, about page, footer, social links, and metadata, followed by instant 1-click publishing."
 pubDate: 2026-09-16
 tags: ["architecture", "guide", "git", "workflow", "configuration"]
-draft: false
+draft: true
 ---
 
 When maintaining a personal website, you shouldn't have to hunt through dozens of deeply nested configuration files just to update your bio, social media profiles, or hero headline.

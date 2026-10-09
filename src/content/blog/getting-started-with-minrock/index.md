@@ -3,7 +3,7 @@ title: "Getting Started with Minrock"
 description: "A quickstart guide to spinning up your blog, writing in Obsidian out of the box, and publishing in minutes."
 pubDate: 2026-09-15
 tags: ["minrock", "astro", "quickstart", "obsidian"]
-draft: false
+draft: true
 ---
 
 Welcome to **Minrock**! This theme was engineered from the ground up for technical writers, software architects, and developers who seek maximum clarity, performance, and typographic fidelity without framework bloat.

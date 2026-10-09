@@ -22,7 +22,8 @@ export default defineConfig({
   vite: {
     server: {
       watch: {
-        ignored: ['**/.obsidian/**', '**/_bases/**', '**/bases/**', '**/_home/**', '**/home/**', '**/_base/**', '**/base/**']
+        // Scoped to src/content: a bare '**/home/**' would match /home/<user>/ and disable file watching entirely
+        ignored: ['**/.obsidian/**', '**/src/content/_bases/**', '**/src/content/bases/**', '**/src/content/_home/**', '**/src/content/home/**', '**/src/content/_base/**', '**/src/content/base/**']
       }
     },
     assetsInclude: ['**/*.base', '**/.obsidian/**', '**/_bases/**']

@@ -1,6 +1,7 @@
 ---
 // src/components/SearchModal.astro
 // Global Search Modal with rich result cards, fuzzy matching, and keyboard navigation (Ctrl + K)
+import { siteConfig } from '../config/site';
 ---
 
 <!-- Search Modal Backdrop & Container -->
@@ -71,7 +72,7 @@
         <span class="guide-item"><kbd>ESC</kbd> Close</span>
       </div>
       <div class="search-brand-note">
-        🪨 Minrock Search
+        🪨 {siteConfig.title} Search
       </div>
     </div>
   </div>

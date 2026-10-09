@@ -3,7 +3,7 @@ title: "Owning Your Identity: Custom Domains, Zero-Cost Hosting, and Digital Ind
 description: "Why having your own domain name is surprisingly cheap and accessible, and how modern platforms like Vercel and Cloudflare let you host your site for free forever."
 pubDate: 2026-09-16
 tags: ["domain", "hosting", "vercel", "cloudflare", "indieweb", "guide"]
-draft: false
+draft: true
 ---
 
 When starting a personal blog or developer portfolio, one of the most common misconceptions is that maintaining a professional web address requires expensive monthly hosting fees or advanced DevOps skills.

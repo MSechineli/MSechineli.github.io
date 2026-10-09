@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 import { getCollection } from 'astro:content';
 
-const allProjects = (await getCollection('projects'))
+const allProjects = (await getCollection('projects', ({ data }) => !data.draft))
   .sort((a, b) => b.data.stars - a.data.stars || b.data.date.valueOf() - a.data.date.valueOf());
 
 const topProjects = allProjects.filter((p) => p.data.featured).slice(0, 2);

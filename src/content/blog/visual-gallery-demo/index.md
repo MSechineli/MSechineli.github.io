@@ -3,7 +3,7 @@ title: "Visual Gallery & Deep Zoom Demo"
 description: "Exploring Minrock's native PhotoSwipe 5 lightbox integration with interactive diagrams, fluid pinch-to-zoom, and responsive galleries."
 pubDate: 2026-09-16
 tags: ["design", "showcase", "typography", "obsidian"]
-draft: false
+draft: true
 image: "/images/minrock-design-system.svg"
 ---
 

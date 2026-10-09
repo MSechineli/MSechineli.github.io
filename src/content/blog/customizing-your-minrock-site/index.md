@@ -3,7 +3,7 @@ title: "Making Minrock Truly Yours: Personalization, Identity, and AI-Assisted C
 description: "How to adapt Minrock's solid architecture into your own personal corner of the web using modern developer tools, Cursor, Antigravity, and your unique creative voice."
 pubDate: 2026-09-16
 tags: ["personalization", "design", "ai", "portfolio", "workflow"]
-draft: false
+draft: true
 ---
 
 In an era dominated by homogenous social feeds and cookie-cutter medium blogs, having your own independent digital garden is an act of creative ownership.

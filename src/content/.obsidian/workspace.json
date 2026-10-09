@@ -21,24 +21,8 @@
               "icon": "lucide-home",
               "title": "Home"
             }
-          },
-          {
-            "id": "df1bcd3bc817be3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/teste/index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,10 +146,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "df1bcd3bc817be3c",
+  "active": "29d23e8308248421",
   "lastOpenFiles": [
-    "_bases/Home.base",
+    "blog/customizing-site-content-and-deployment/index.md",
     "blog/teste/index.md",
+    "blog/understanding-comments-and-scatterleaf/sedIACpCs",
+    "blog/owning-your-custom-domain-guide/sed25Vs4Y",
+    "blog/getting-started-with-minrock/sedyM61EG",
+    "_bases/Home.base",
     "projects/minrock/index.md",
     "blog/teste",
     "blog/getting-started-with-minrock/index.md",

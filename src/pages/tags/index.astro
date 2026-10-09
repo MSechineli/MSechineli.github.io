@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../config/site';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('blog', ({ data }) => !data.draft);
-const projects = await getCollection('projects');
+const projects = await getCollection('projects', ({ data }) => !data.draft);
 
 // Aggregate tags with counts across both blog articles and projects
 const tagCounts: Record<string, number> = {};
@@ -21,7 +22,7 @@ projects.forEach((proj) => {
 const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 ---
 
-<BaseLayout title="Tags | Minrock" description="Explore articles by topic and tag.">
+<BaseLayout title={`Tags | ${siteConfig.title}`} description="Explore articles by topic and tag.">
   <header class="tags-header">
     <h1 class="tags-h1">Explore by Tag</h1>
     <p class="tags-subtitle">Browse notes and articles grouped by topics.</p>

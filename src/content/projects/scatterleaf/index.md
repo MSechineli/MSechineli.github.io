@@ -9,6 +9,7 @@ repoUrl: "https://github.com/rnt-rez/scatterleaf"
 demoUrl: "https://minrock.vercel.app/blog/obsidian-vault-guide#comments"
 emoji: "🍃"
 featured: true
+draft: true
 ---
 
 ## Overview

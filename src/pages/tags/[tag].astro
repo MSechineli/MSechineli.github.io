@@ -1,12 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../config/site';
 import ArticleCard from '../../components/ArticleCard.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-  const allProjects = await getCollection('projects');
+  const allProjects = await getCollection('projects', ({ data }) => !data.draft);
 
   const uniqueTags = [
     ...new Set([
@@ -36,7 +37,7 @@ const totalCount = posts.length + projects.length;
 ---
 
 <BaseLayout
-  title={`#${tag} | Minrock`}
+  title={`#${tag} | ${siteConfig.title}`}
   description={`Browse content tagged with #${tag}`}
 >
   <header class="tag-header">

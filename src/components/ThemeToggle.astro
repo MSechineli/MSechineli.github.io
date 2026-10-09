@@ -307,7 +307,7 @@
     }
 
     // Initialize UI on mount
-    const saved = localStorage.getItem('minrock_theme') || 'cream';
+    const saved = localStorage.getItem('minrock_theme') || document.documentElement.dataset.defaultTheme || 'cream';
     updateThemeUI(saved);
 
     // Toggle dropdown
@@ -361,7 +361,7 @@
 
     // Listen to OS theme changes if on auto
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-      const current = localStorage.getItem('minrock_theme') || 'cream';
+      const current = localStorage.getItem('minrock_theme') || document.documentElement.dataset.defaultTheme || 'cream';
       if (current === 'auto') {
         applyTheme('auto');
       }

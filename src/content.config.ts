@@ -29,6 +29,7 @@ const projects = defineCollection({
     demoUrl: z.string().optional(),
     emoji: z.string().default('📦'),
     featured: z.boolean().default(false),
+    draft: z.boolean().default(false),
   })
 });
 

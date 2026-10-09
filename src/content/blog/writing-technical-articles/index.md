@@ -3,7 +3,7 @@ title: "Mastering Technical Writing with Clean Typography"
 description: "How Minrock handles code blocks, data tables, callouts, and type hierarchy to elevate technical prose."
 pubDate: 2026-09-14
 tags: ["writing", "typography", "code"]
-draft: false
+draft: true
 ---
 
 Technical writing is an exercise in reducing cognitive load. Every styling choice—from line length (*measure*) to heading scale—should guide the reader through complex engineering concepts without distraction.

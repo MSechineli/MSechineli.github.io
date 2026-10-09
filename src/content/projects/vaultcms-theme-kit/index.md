@@ -9,6 +9,7 @@ repoUrl: "https://github.com/rnt-rez/minrock"
 demoUrl: "https://minrock.vercel.app/blog/obsidian-vault-guide"
 emoji: "⚙️"
 featured: false
+draft: true
 ---
 
 ## Overview

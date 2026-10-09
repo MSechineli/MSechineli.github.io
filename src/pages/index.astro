@@ -10,7 +10,7 @@ const recentPosts = allPosts
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 
-const allProjects = await getCollection('projects');
+const allProjects = await getCollection('projects', ({ data }) => !data.draft);
 const featuredProjects = allProjects
   .filter((p) => p.data.featured)
   .slice(0, 2);
@@ -29,7 +29,7 @@ const topTags = [...tagsMap.entries()]
 <BaseLayout>
   <section class="hero">
     <h1 class="hero-title">
-      Crafted for deep thinking &amp; technical writing.
+      Crafted for deep thinking &amp; technical writing. <!-- TODO: título da home -->
     </h1>
     <p class="hero-subtitle">
       {siteConfig.tagline}
@@ -37,7 +37,7 @@ const topTags = [...tagsMap.entries()]
     <div class="hero-actions">
       <a href="/blog" class="btn btn-primary">Read Articles →</a>
       <a href="/projects" class="btn btn-secondary">Explore Projects</a>
-      <a href="/about" class="btn btn-tertiary">About Minrock</a>
+      <a href="/about" class="btn btn-tertiary">About</a>
     </div>
   </section>
 
